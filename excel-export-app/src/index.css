@@ -1,0 +1,131 @@
+*{
+  box-sizing: border-box;
+  margin : 0;
+  padding : 0
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.table-content {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 1200px;
+}
+
+.table-head {
+  background-color: #fff;
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 1 !important;
+}
+
+.table-head th {
+  font-size: 14px;
+  padding: 4px !important;
+  text-align: left !important;
+  border-bottom: 1px solid #ddd !important;
+  color: #000 !important;
+  background-color: #adb5bd !important;
+  border-start-start-radius: 0px !important;
+  border-start-end-radius: 0px !important;
+}
+
+.table-body td {
+  padding: 2px 4px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.react-contextmenu {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px 0;
+  z-index: 1000;
+}
+
+.react-contextmenu-item {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.react-contextmenu-item:hover {
+  background-color: #555;
+}
+
+.react-contextmenu-item--disabled {
+  color: #888;
+  cursor: not-allowed;
+}
+
+.custom-context-menu {
+  position: absolute;
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px 0;
+  z-index: 1000;
+}
+
+.custom-context-menu-item {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.custom-context-menu-item:hover {
+  background-color: #555;
+}
+
+.home,
+.services,
+.reports,
+.contact,
+.events,
+.support{
+  display: flex;
+  margin-left: 260px;
+  font-size: 1rem;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #1450c0;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1450c0;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #1450c0;
+}
+
+.rc-virtual-list-scrollbar-thumb{
+  background: #1450c0 !important;
+}

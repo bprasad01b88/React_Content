@@ -1,0 +1,55 @@
+/* src/styles/DateRangePicker.css */
+.date-range-picker {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+    margin: auto;
+  }
+  
+  .date-range-picker select {
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .date-range-picker .date-picker {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .date-range-picker .date-picker .react-datepicker-wrapper {
+    width: 100%;
+  }
+  
+  .date-range-picker .selected-range {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .date-range-picker .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .react-datepicker__day--highlighted-range-1 {
+    background-color: #ffeb3b;
+    color: black;
+  }
+  
+  .react-datepicker__day--highlighted-range-2 {
+    background-color: #ffa500;
+    color: white;
+  }
+  
+  .react-datepicker__day--highlighted-range-3 {
+    background-color: #ff6347;
+    color: white;
+  }
+  
+  .react-datepicker__day--highlighted-range-4 {
+    background-color: #4682b4;
+    color: white;
+  }
+  
